@@ -1,0 +1,598 @@
+body{
+    margin: 0%;
+   
+}
+/*header section*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header{
+    height: 60px;
+    border: 2px solid black;
+    /* position: fixed; */
+    width:100%;
+    /* background-color: rgb(202, 238, 44); */
+    background-image: url(https://i.ibb.co/M58Rg3f/download-1.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% ;
+    
+
+}
+
+.login{
+    height: 40px;
+    float: left;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+.cart{
+    height: 40px;
+    float: left;
+    margin-left: 2%;
+
+    margin-top: 1%;
+
+}
+
+
+.webicon{
+    height: 40px;
+    width:5%;
+    float: left;
+    margin-top: 0.5%;
+  
+  
+}
+
+
+.loc{
+  float: left;
+ margin: 1%;
+ margin-left: 20%;
+ margin-right:0%;
+ /* width: 40%; */
+ border-radius: 8%;
+ height: 30px;
+ border: 2px solid black;
+ 
+}
+
+.local{
+    float: left;
+ margin: 1%;
+ margin-right:0%;
+ margin-left: 0%;
+ width:30%;
+ border-radius: 8%;
+ height: 30px;
+ border: 2px solid black;
+
+}
+/* header section ends */
+
+/*     pan banner code      */
+#poster{
+    height: 220px; 
+     /* border: 5px double yellow; */
+     background-repeat: no-repeat;
+     background-size: 95% 220px;
+     /* margin-left: 5%; */
+     border-radius: 10px solid black;
+      position:relative; 
+      /* display:inline-block ;  */
+      margin-top: 3%;
+      width: 100%;
+ } 
+ 
+ .panbanner{
+     width: 100%;
+     height: 220px;
+     align-items: center;
+     animation: revolve 10s infinite;
+ 
+ }
+  @keyframes revolve {
+    0%{
+      margin-left: 20%
+    }
+    25%{
+        margin-left: 40%
+
+    }
+    50%{
+        margin-left: 60%
+
+    }
+    75%{
+        margin-right:100%
+
+    }
+    100%{
+        margin-right: 120%
+
+    }
+    
+  }
+ .panbanner:hover{
+     transform: scale(1.1);
+ }
+    
+
+ /* .txt{
+     height: 400px;
+     margin-left: 30%;
+ } */
+ /* offers to quick search code */
+ 
+ #offers{
+     height:200px;
+ 
+     /* border: 5px groove black */
+    
+ }
+ .icecream{
+     height: 200px;
+     margin-left: 5%;
+    
+    
+ }
+
+ .groc{
+     height: 200px;
+     border-radius: 5%;
+     margin-left: 5%;
+ }
+ /* product1 images codes */
+ 
+ #product1{
+     height:420px;
+     
+ }
+ .productimage:hover{
+    transform: scale(1.1);
+
+ }
+ #product1>div{
+     float: left;
+     margin-left:1%;
+ 
+     
+ 
+ }
+ h2{
+     text-align: center;
+     color: rgb(8, 1, 14);
+     background-color:  rgb(141, 241, 141);
+     width: 100%;
+     height: 45px;
+     display: inline-block;
+     border: 2px solid black;
+     /* margin-top: 15%; */
+     text-align: center;
+     
+ }
+ h2:hover{
+    font-size:30px;
+    color:  rgb(201, 26, 114);
+ }
+ 
+ .productimage{
+     height: 200px;
+     width:100px;
+     margin-left:20px;
+     /* display: inline-block; */
+     margin-top: 1%;
+     
+ }
+ 
+ #product3{
+     /* height:600px; */
+     /* border: 5px groove rgb(209, 130, 12); */
+     display: inline-block;
+     margin-left: 10%;
+     width: 100%;
+     /* background-color: rgb(250, 212, 218); */
+ }
+ .productbox{
+     height: 200px;
+     width: 300px;
+     border: 3px solid green;
+     float:left;
+     margin: 2%;
+     background-color: rgb(141, 241, 141);
+     box-shadow: 10px 10px rgb(148, 147, 147);
+     animation:dance 8s infinite;
+     }
+
+     .productbox:hover{
+         /* transform: scale(1.1);  */
+        /* transform: skewY(10deg); */
+        transform: rotate(50deg);
+
+     }
+
+     @keyframes dance {
+        0%{
+            transform: rotate(-5deg);
+
+        }
+        25%{
+            transform: rotate(0deg);
+
+        }
+        50%{
+            transform:scale(1.1);
+
+        }
+        75%{
+            transform: rotate(0deg);
+
+        }
+        100%{
+            transform: rotate(5deg);
+
+        }
+        
+     }
+
+ 
+  .image{
+     height: 200px;
+     width:52%;
+     float: left;
+  }
+ 
+  .productcontent{
+     float: left;
+     width: 45%;
+     margin-top: 20%;
+     margin-left: 3%;
+ 
+  }
+ 
+  .producttext{
+     color: rgb(36, 226, 19);
+     font-weight: bold;
+     font-size: 15px;
+     
+ 
+     
+  }
+ 
+  .producttext2{
+     color: rgb(36, 226, 19);
+     font-weight: bold;
+    
+ 
+  }
+ 
+ footer{
+     /* height: 120px; */
+     background-color: rgb(53, 1, 1);
+     width: 100%;
+     text-align: center;
+     font-style: italic;
+     font-weight: bold;
+      font-size: 15px;
+      color: white;
+ }
+ 
+ .foottext{
+     font-size: 20px;
+ }
+ 
+ .foot{
+     display:inline-block;
+     width: 30%;
+     border-right: 2px solid white;
+ }
+ 
+ .nobody{
+     border:none
+ 
+ }
+ 
+ 
+ ul{
+     list-style-type:none;
+ }
+ 
+ .social{
+     height: 20px;
+ }
+
+ @media screen and (max-width: 412px){
+    .webicon{
+        width: 35px;
+    }
+    .loc{
+        margin-left:5%;
+    }
+    .login{
+        margin-left: 10px;
+        height: 30px;
+    }
+    .cart{
+        margin-left: 0.5%;
+        height: 30px;
+    }
+
+ }
+ 
+ @media screen and (max-width: 375px){
+    .webicon{
+        width: 35px;
+    }
+    .loc{
+        margin-left:5%;
+    }
+    .login{
+        margin-left: 10px;
+        height: 20px;
+    }
+    .cart{
+        margin-left: 0.5%;
+        height: 20px;
+    }
+
+ }
+ @media screen and (max-width: 400px){
+    .webicon{
+        width: 25px;
+    }
+    .loc{
+        margin-left:2%;
+    }
+    .login{
+        margin-left: 10px;
+        height: 10px;
+    }
+    .cart{
+        margin-left: 0.5%;
+        height: 10px;
+    }
+
+ }
+ @media screen and (max-width: 414px){
+    .webicon{
+        width: 45px;
+    }
+    .loc{
+        margin-left:5%;
+    }
+    .login{
+        margin-left: 10px;
+        height: 18px;
+    }
+    .cart{
+        margin-left: 0.5%;
+        height: 18px;
+    }
+
+ }
+ @media screen and (max-width: 360px){
+    #product1>div{
+        margin-left:10%;
+    }
+
+ }
+ @media screen and (max-width: 820px){
+    .webicon{
+        width: 60px;
+    }
+    .loc{
+        margin-left:20%;
+    }
+    .login{
+        margin-left: 40px;
+        height: 30px;
+    }
+    .cart{
+        margin-left: 0.5%;
+        height: 30px;
+    }
+
+    .icecream{
+        height: 100px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+   .groc{
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 4%;
+   }
+}
+
+@media screen and (max-width: 540px){
+    .webicon{
+        width: 45px;
+    }
+    .loc{
+        margin-left:5%;
+    }
+    .login{
+        margin-left: 30px;
+        height: 40px;
+    }
+    .cart{
+        margin-left: 0.5%;
+        height: 40px;
+    }
+    .icecream{
+        height: 80px;
+        margin-left: 5%;
+      
+    }
+   .groc{
+    height: 80px;
+    margin-left: 5%;
+   
+   }
+
+   #product1>div{
+    margin-top:0%;
+}
+
+.productbox{
+    margin-left:10%;
+}
+
+
+ }
+
+ @media screen and (max-width: 412px){
+    .webicon{
+        width: 40px;
+    }
+    .loc{
+        margin-left:8%;
+    }
+    .login{
+        /* margin-left: 10%; */
+        height: 20px;
+    }
+    .cart{
+        /* margin-left: 0.5%; */
+        height:20px;
+    }
+
+    .icecream{
+        height: 100px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+   .groc{
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 4%;
+   }
+}
+
+@media screen and (max-width: 1024px){
+    .webicon{
+        width: 60px;
+    }
+    .loc{
+        margin-left:20%;
+    }
+    .login{
+        margin-left: 5%;
+        height: 40px;
+    }
+    .cart{
+         margin-left: 0.5%; 
+        height:40px;
+    }
+
+    .icecream{
+        height: 150px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+   .groc{
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 4%;
+   }
+
+   #product1{
+    margin-left: 5%;
+   }
+
+   #product3{
+    margin-left: 18%;
+   }
+}
+@media screen and (max-width: 1027px){
+    .webicon{
+        width: 40px;
+    }
+    .loc{
+        margin-left:8%;
+    }
+    .login{
+        /* margin-left: 10%; */
+        height: 20px;
+    }
+    .cart{
+        /* margin-left: 0.5%; */
+        height:20px;
+    }
+
+    .icecream{
+        height: 100px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+   .groc{
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 4%;
+   }
+} 
+
+
+@media screen and (max-width: 1032px){
+    .webicon{
+        width: 40px;
+    }
+    .loc{
+        margin-left:8%;
+    }
+    .login{
+        /* margin-left: 10%; */
+        height: 20px;
+    }
+    .cart{
+        /* margin-left: 0.5%; */
+        height:20px;
+    }
+
+    .icecream{
+        height: 100px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+   .groc{
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 4%;
+   }
+} 
+@media screen and (max-width: 1260px){
+    .webicon{
+        width: 60px;
+    }
+    .loc{
+        margin-left:15%;
+    }
+    .login{
+        /* margin-left: 10%; */
+        height: 40px;
+    }
+    .cart{
+        /* margin-left: 0.5%; */
+        height:40px;
+    }
+
+    .icecream{
+        height: 150px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+   .groc{
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 4%;
+   }
+} 
+ 
+ 
+
+
